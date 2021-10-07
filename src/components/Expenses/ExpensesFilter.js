@@ -1,5 +1,6 @@
 
 import './ExpensesFilter.css';
+import { useState } from 'react';
 
 const ExpensesFilter = (props) => {
     const dropdownChangeHandler = (event) => {
